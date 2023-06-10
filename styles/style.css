@@ -1,0 +1,57 @@
+
+
+/* -----------first row css ----------- */
+
+
+#first-row {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/woods-wallpaper.jpg);
+    background-attachment: fixed;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+}
+
+#first-row h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+#first-row p {
+    color: #ddd;
+}
+
+.greeting-text{
+    text-align: center;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.custom-nav-link {
+    color: inherit !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.custom-nav-link:hover {
+    color: inherit;
+}
+
+.thin-text {
+    font-weight: 300;
+}
+
+/* -----------first row css ----------- */
+
+
+
+/* -------testing stuff------------ */
+body {
+    height:1000vh;
+}
+
+
