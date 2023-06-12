@@ -101,6 +101,60 @@
 /* -----------second row css ----------- */
 
 
+
+/* -----------third row css ----------- */
+
+#third-row {
+    background-color: #F0F0F0;
+    margin-top: 100px;
+}
+
+#third-row h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.img-background {
+    background-color: 	#023020;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.img-con {
+    margin-bottom: 50px;
+}
+
+#third-row svg {
+    fill: white;
+    height: 64px;
+}
+
+#third-row h3 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+
+#third-row p {
+    font-size: 15px;
+    max-width: 80%;
+    line-height: 1.7;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+/* -----------third row css ----------- */
+
+
+
+
 /* -------testing stuff------------ */
 body {
     height:500vh;
