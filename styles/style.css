@@ -1,4 +1,8 @@
+::selection {
+    text-shadow: none;
+    background: #66cc99;
 
+}
 
 /* -----------first row css ----------- */
 
@@ -241,7 +245,7 @@
     letter-spacing: 1px;
     font-size: 30px;
     line-height: 1.1;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #sixth-row p {
@@ -266,11 +270,55 @@
 /* -----------sixth row css ----------- */
 
 
+/* -----------seventh-row / footer row css ----------- */
+
+footer {
+    color: #fff;
+    background-color: #222;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.list-inline {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.list-inline > li {
+    display: inline-block;
+}
+
+ul.social-buttons li {
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    outline: 0;
+    background: #333;
+    text-align: center;
+}
+
+.fit {
+    font-size: 32px;
+}
+
+footer p {
+    font-size: 0.7rem;
+}
+
+.last-line {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #aaa;
+}
+
+/* -----------seventh-row / footer row css ----------- */
+
+
+
 
 
 /* -------testing stuff------------ */
-body {
-    height:500vh;
-}
 
 
