@@ -1,7 +1,78 @@
 ::selection {
     text-shadow: none;
     background: #66cc99;
+}
 
+/* -----------Waypoint stuff ----------- */
+.wp1,
+.wp2,
+.wp3,
+.wp4,
+.wp5,
+.wp6 {
+    visibility: hidden;
+}
+
+.animate__bounceIn,
+.animate__bounceInLeft,
+.animate__bounceInRight,
+.animate__bounceInDown,
+.animate__fadeIn,
+.animate__fadeInUp,
+.animate__fadeInUpDelay,
+.animate__fadeInDown,
+.animate__fadeInLeft,
+.animate__fadeInRight,
+.animate__slideInUp,
+.animate__slideInDown,
+.animate__slideInLeft,
+.animate__slideInRight,
+.animate__fadeInTopLeft,
+.animate__zoomIn,
+.animate__swing,
+.animate__pulse,
+.animate__bounce,
+.animate__progress1-delay,
+.animate__progress2-delay,
+.animate__progress3-delay,
+.animate__progress4-delay,
+.animate__progress5-delay {
+    visibility: visible;
+}
+
+.delay-01s {
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+}
+
+.delay-02s {
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+
+.delay-025s {
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+
+.delay-05s {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+.delay-1s {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.delay-4s {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.delay-4-5s {
+    animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s;
 }
 
 /* -----------first row css ----------- */
@@ -15,6 +86,10 @@
     background-attachment: fixed;
     color: #FFF;
     font-family: "Lato", sans-serif;
+}
+
+nav {
+    z-index: 2;
 }
 
 #first-row h1 {
@@ -298,7 +373,7 @@ ul.social-buttons li {
 }
 
 .fit {
-    font-size: 32px;
+    font-size: 32px;;
 }
 
 footer p {
@@ -314,9 +389,6 @@ footer p {
 }
 
 /* -----------seventh-row / footer row css ----------- */
-
-
-
 
 
 /* -------testing stuff------------ */
