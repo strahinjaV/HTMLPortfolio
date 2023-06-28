@@ -56,3 +56,12 @@ $("#back-to-top").mouseover(function() {
 $("#back-to-top").mouseout(function() {
   $("#back-to-top-copy").animate({opacity: "0"}, "slow");
 });
+
+//navbar collapse 
+$(window).scroll(function() {
+  if ($(".navbar").offset().top > 50) {
+    $(".changing-nav-bar").addClass("nav-collapse");
+  } else {
+      $(".changing-nav-bar").removeClass("nav-collapse");
+  }
+});

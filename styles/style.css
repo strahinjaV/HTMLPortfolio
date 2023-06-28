@@ -92,6 +92,13 @@ nav {
     z-index: 2;
 }
 
+.nav-collapse {
+    padding: 0;
+    background: #019875;
+    opacity: 90%;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
 #first-row h1 {
     font-size: 60px;
     letter-spacing: 3px;
@@ -105,7 +112,7 @@ nav {
 
 .greeting-text{
     text-align: center;
-    height:80%;
+    height:90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -241,6 +248,12 @@ nav {
     margin-bottom: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
+    filter: grayscale(100%);
+    transition: filter .3s ease-in-out;
+}
+
+.icons:hover {
+    filter: grayscale(0%);
 }
 
 #fourth-row h2 {
@@ -303,6 +316,15 @@ nav {
     letter-spacing: 1px;
     padding: 10px;
     color: #ddd;
+    transition: all .3s ease-in-out;
+}
+
+.grab-resume:hover,
+.grab-resume:active {
+    color: #fff;
+    border: 2px solid #ccc;
+    background-color: rgba(254, 254, 254, 0.2);
+    padding: 10px 30px;
 }
 
 /* -----------fifth row css ----------- */
@@ -340,6 +362,13 @@ nav {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     border: 2px solid #000;
+    transition: 0.3s ease-in-out
+}
+
+.say-hi:hover {
+    color: #fff;
+    background: #019875;
+    border: 2px solid #019875;
 }
 
 /* -----------sixth row css ----------- */
@@ -370,6 +399,11 @@ ul.social-buttons li {
     outline: 0;
     background: #333;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+ul.social-buttons li:hover {
+    transform: scale(1.15);
 }
 
 .fit {
