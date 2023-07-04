@@ -1,4 +1,6 @@
 
+//----------------Animations with Waypoint JS ----------------------
+
 // Little bit about me portion 
 $(".wp1").waypoint(
   function () {
@@ -48,6 +50,7 @@ $(".wp5").waypoint(
   }
 )
 
+//----------------Animations with Waypoint JS ----------------------
 
 //back to the top text 
 $("#back-to-top").mouseover(function() {
