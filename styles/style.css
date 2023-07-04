@@ -113,6 +113,12 @@ button.navbar-toggler {
     border: none;
 }
 
+@media only screen and (max-width: 818px) {
+    .nav-con {
+        margin-top: 20px;
+    }
+}
+
 a.nav-link:hover {
     background-color: rgba(255, 255, 255, .3);
     border-radius: 3px;
