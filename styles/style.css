@@ -1,6 +1,10 @@
 ::selection {
-    text-shadow: none;
-    background: #66cc99;
+  text-shadow: none;
+  background: #66cc99;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* -----------Waypoint stuff ----------- */
@@ -10,7 +14,7 @@
 .wp4,
 .wp5,
 .wp6 {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .animate__bounceIn,
@@ -37,275 +41,264 @@
 .animate__progress3-delay,
 .animate__progress4-delay,
 .animate__progress5-delay {
-    visibility: visible;
+  visibility: visible;
 }
 
 .delay-01s {
-    animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
 }
 
 .delay-02s {
-    animation-delay: 0.2s;
-    -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
 }
 
 .delay-025s {
-    animation-delay: 0.25s;
-    -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s;
 }
 
 .delay-05s {
-    animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
 }
 
 .delay-1s {
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 
 .delay-4s {
-    animation-delay: 4s;
-    -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 .delay-4-5s {
-    animation-delay: 4.5s;
-    -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+  -webkit-animation-delay: 4.5s;
 }
 
 /* -----------first row css ----------- */
 
-
 #first-row {
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/woods-wallpaper.jpg);
-    background-attachment: fixed;
-    color: #FFF;
-    font-family: "Lato", sans-serif;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/woods-wallpaper.jpg);
+  background-attachment: fixed;
+  color: #fff;
+  font-family: "Lato", sans-serif;
 }
 
-
 .bigger-text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-    border-color: transparent;
-  } 
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
 
 .changing-nav-bar {
-    transition: .5s ease-in-out, padding .5s ease-in-out;
+  transition: 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 .nav-collapse {
-    padding: 0;
-    background: #019875;
-    transition: .5s ease-in-out, padding .5s ease-in-out;
+  padding: 0;
+  background: #019875;
+  transition: 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 button.navbar-toggler {
-    border: none;
+  border: none;
 }
 
 @media only screen and (max-width: 818px) {
-    .nav-con {
-        margin-top: 20px;
-    }
+  .nav-con {
+    margin-top: 20px;
+  }
 }
 
 a.nav-link:hover {
-    background-color: rgba(255, 255, 255, .3);
-    border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
 }
 
 #first-row h1 {
-    font-size: 60px;
-    letter-spacing: 3px;
-    font-weight: 300;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-weight: 300;
 }
 
 #first-row p {
-    color: #ddd;
-    margin-bottom: 50px;
+  color: #ddd;
+  margin-bottom: 50px;
 }
 
-.greeting-text{
-    text-align: center;
-    height:90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.greeting-text {
+  text-align: center;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .custom-nav-link {
-    color: inherit !important;
-    font-weight: 300;
-    letter-spacing: 1px;
+  color: inherit !important;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .custom-nav-link:hover {
-    color: inherit;
+  color: inherit;
 }
 
 .thin-text {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /* -----------first row css ----------- */
-
 
 /* -----------second row css ----------- */
 
 #second-row {
-    text-align: center;
+  text-align: center;
 }
 
 #second-row h2 {
-    color: inherit;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 30px;
-    line-height: 1.1;
+  color: inherit;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px;
+  line-height: 1.1;
 }
 
 #second-row p {
-    line-height: 1.7;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-    font-size: 16px;
-    max-width: 800px;
-    box-sizing: border-box;
-    color: #000;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 16px;
+  max-width: 800px;
+  box-sizing: border-box;
+  color: #000;
 }
 
 #second-row .tldr {
-    background: #f0f0f0;
-    color: #555;
-    max-width: 800px;
+  background: #f0f0f0;
+  color: #555;
+  max-width: 800px;
 }
 
 .tldr h3 {
-    font-weight: 300;
-    font-size: 22px;
-    color: #111;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 22px;
+  color: #111;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
 }
 
 .tldr h5 {
-    font-weight: 300;
-    font-size: 14px;
-    color: #111;
-    font-family: 'Roboto Slab', sans-serif;
-    letter-spacing: 0.5px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #111;
+  font-family: "Roboto Slab", sans-serif;
+  letter-spacing: 0.5px;
 }
 
-
-
 /* -----------second row css ----------- */
-
-
 
 /* -----------third row css ----------- */
 
 #third-row {
-    background-color: #F0F0F0;
-    margin-top: 100px;
+  background-color: #f0f0f0;
+  margin-top: 100px;
 }
 
 #third-row h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px;
 }
 
 .img-background {
-    background-color: 	#023020;
-    height: 175px;
-    width: 175px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  background-color: #023020;
+  height: 175px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .img-con {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #third-row svg {
-    fill: white;
-    height: 64px;
+  fill: white;
+  height: 64px;
 }
 
 #third-row h3 {
-    font-weight: 400;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
 }
 
 #third-row p {
-    font-size: 15px;
-    max-width: 80%;
-    line-height: 1.7;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+  font-size: 15px;
+  max-width: 80%;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 /* -----------third row css ----------- */
 
-
-
 /* -----------fourth row css ----------- */
 
 .icons {
-    height: auto;
-    width: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    filter: grayscale(100%);
-    transition: filter .3s ease-in-out;
+  height: auto;
+  width: 5rem;
+  margin-bottom: 5rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
 }
 
 .icons:hover {
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 #fourth-row h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 30px;
-    line-height: 1.1;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px;
+  line-height: 1.1;
 }
 
 #fourth-row p {
-    font-size: 16px;
-    padding-bottom: 40px;
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.7;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 40px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 #fourth-row h3 {
-    font-weight: 300;
-    font-size: 22px;
-    color: #111;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 5rem;
+  font-weight: 300;
+  font-size: 22px;
+  color: #111;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 5rem;
 }
 
 /* -----------fourth row css ----------- */
@@ -313,143 +306,136 @@ a.nav-link:hover {
 /* -----------fifth row css ----------- */
 
 #fifth-row {
-    height: 350px;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/back-2.jpg);
-    background-attachment: fixed;
-    color: #fff;
-
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/back-2.jpg);
+  background-attachment: fixed;
+  color: #fff;
 }
 
 #fifth-row h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 1.1;
-    font-size: 30px;
-    margin: 7rem auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-size: 30px;
+  margin: 7rem auto;
 }
 
 .grab-resume {
-    background: none;
-    border: 2px solid #ccc;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 10px;
-    color: #ddd;
-    transition: all .3s ease-in-out;
+  background: none;
+  border: 2px solid #ccc;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: #ddd;
+  transition: all 0.3s ease-in-out;
 }
 
 .grab-resume:hover,
 .grab-resume:active {
-    color: #fff;
-    border: 2px solid #ccc;
-    background-color: rgba(254, 254, 254, 0.2);
-    padding: 10px 30px;
+  color: #fff;
+  border: 2px solid #ccc;
+  background-color: rgba(254, 254, 254, 0.2);
+  padding: 10px 30px;
 }
 
 /* -----------fifth row css ----------- */
 
-
 /* -----------sixth row css ----------- */
 
 .email-icon {
-    margin: 3rem auto;
+  margin: 3rem auto;
 }
 
 #sixth-row h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 30px;
-    line-height: 1.1;
-    margin-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 1rem;
 }
 
 #sixth-row p {
-    font-size: 16px;
-    font-weight: 300;
-    margin: 1rem auto;
-    max-width: 450px;
-    line-height: 1.7;
-    font-family: 'Roboto Slab', serif;
-    
+  font-size: 16px;
+  font-weight: 300;
+  margin: 1rem auto;
+  max-width: 450px;
+  line-height: 1.7;
+  font-family: "Roboto Slab", serif;
 }
 
 .say-hi {
-    color: #000;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    border: 2px solid #000;
-    transition: 0.3s ease-in-out
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border: 2px solid #000;
+  transition: 0.3s ease-in-out;
 }
 
 .say-hi:hover {
-    color: #fff;
-    background: #019875;
-    border: 2px solid #019875;
+  color: #fff;
+  background: #019875;
+  border: 2px solid #019875;
 }
 
 /* -----------sixth row css ----------- */
-
 
 /* -----------seventh-row / footer row css ----------- */
 
 footer {
-    color: #fff;
-    background-color: #222;
-    padding-top: 50px;
-    color: #fff;
+  color: #fff;
+  background-color: #222;
+  padding-top: 50px;
+  color: #fff;
 }
 
 .list-inline {
-    list-style: none;
-    margin-bottom: 1rem;
+  list-style: none;
+  margin-bottom: 1rem;
 }
 
 .list-inline > li {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul.social-buttons li {
-    width: 60px;
-    height: 60px;
-    line-height: 50px;
-    outline: 0;
-    background: #333;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  outline: 0;
+  background: #333;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
 }
 
 ul.social-buttons li:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .fit {
-    font-size: 32px;;
+  font-size: 32px;
 }
 
 footer p {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .last-line {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-    font-weight: 300;
-    color: #aaa;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #aaa;
 }
 
 /* -----------seventh-row / footer row css ----------- */
 
-
 /* -------testing stuff------------ */
-
-

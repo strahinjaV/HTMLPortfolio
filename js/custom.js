@@ -1,7 +1,6 @@
-
 //----------------Animations with Waypoint JS ----------------------
 
-// Little bit about me portion 
+// Little bit about me portion
 $(".wp1").waypoint(
   function () {
     $(".wp1").addClass("animate__animated animate__fadeIn")
@@ -11,7 +10,7 @@ $(".wp1").waypoint(
   }
 )
 
-// What i do 
+// What i do
 $(".wp2").waypoint(
   function () {
     $(".wp2").addClass("animate__animated animate__fadeIn ")
@@ -46,25 +45,40 @@ $(".wp5").waypoint(
     $(".wp5").addClass("animate__animated animate__bounceInDown ")
   },
   {
-    offset: "90%"
+    offset: "90%",
   }
 )
 
 //----------------Animations with Waypoint JS ----------------------
 
-//back to the top text 
-$("#back-to-top").mouseover(function() {
-  $("#back-to-top-copy").animate({opacity: "1"}, "slow");
-});
-$("#back-to-top").mouseout(function() {
-  $("#back-to-top-copy").animate({opacity: "0"}, "slow");
-});
+//back to the top text
+$("#back-to-top").mouseover(function () {
+  $("#back-to-top-copy").animate({ opacity: "1" }, "slow")
+})
+$("#back-to-top").mouseout(function () {
+  $("#back-to-top-copy").animate({ opacity: "0" }, "slow")
+})
 
-//navbar collapse 
-$(window).scroll(function() {
-  if ($(".navbar").offset().top > 50) {
-    $(".changing-nav-bar").addClass("nav-collapse");
-  } else {
-      $(".changing-nav-bar").removeClass("nav-collapse");
-  }
-});
+//navbar collapse
+// $(window).scroll(function () {
+//   if ($(".navbar").offset().top > 50) {
+//     $(".changing-nav-bar").addClass("nav-collapse")
+//   } else {
+//     $(".changing-nav-bar").removeClass("nav-collapse")
+//   }
+// })
+
+//navbar collapse but if the device is a mobile device automatically add the collapsing navbar class
+//otherwise only add the navar collapse class once you start scrolling
+
+if (window.innerWidth <= 576) {
+  $(".changing-nav-bar").addClass("nav-collapse")
+} else {
+  $(window).scroll(function () {
+    if ($(".navbar").offset().top > 50) {
+      $(".changing-nav-bar").addClass("nav-collapse")
+    } else {
+      $(".changing-nav-bar").removeClass("nav-collapse")
+    }
+  })
+}
