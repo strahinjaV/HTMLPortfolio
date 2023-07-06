@@ -35,7 +35,7 @@ $(".wp4").waypoint(
     $(".wp4").addClass("animate__animated animate__bounceIn ")
   },
   {
-    offset: "60%",
+    offset: "50%",
   }
 )
 
