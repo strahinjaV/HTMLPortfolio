@@ -306,7 +306,7 @@ a.nav-link:hover {
 /* -----------fifth row css ----------- */
 
 #fifth-row {
-  height: 350px;
+  height: 30vh;
   background-position: center;
   background-size: cover;
   background-image: url(../assets/blurPC.jpg);
