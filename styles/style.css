@@ -83,13 +83,22 @@ body {
 
 #first-row {
   height: 60vh;
-  background-position: center;
-  background-size: cover;
+  background-position: center !important;
+  background-size: cover !important;;
   background-image: url(../assets/woods-wallpaper.jpg);
-  background-attachment: fixed;
+  background-attachment: fixed !important;;
   color: #fff;
   font-family: "Lato", sans-serif;
 }
+
+@media (max-width: 576px) {
+  #first-row {
+    background-position: center !important;
+    background-size: cover !important;;
+    background-image: url(../assets/woods-wallpaper_portrait.jpg);
+    background-attachment: fixed !important;;
+  }
+} 
 
 .bigger-text {
   font-size: 16px;
@@ -115,11 +124,11 @@ button.navbar-toggler {
   border: none;
 }
 
-@media only screen and (max-width: 818px) {
+/* @media only screen and (max-width: 818px) {
   .nav-con {
     margin-top: 20px;
   }
-}
+} */
 
 a.nav-link:hover {
   background-color: rgba(255, 255, 255, 0.3);
@@ -313,6 +322,15 @@ a.nav-link:hover {
   background-attachment: fixed;
   color: #fff;
 }
+
+@media (max-width: 576px) {
+  #fifth-row {
+    background-position: center !important;
+    background-size: cover !important;;
+    background-image: url(../assets/blurPC_portrait.png);
+    background-attachment: fixed !important;;
+  }
+} 
 
 #fifth-row h2 {
   font-family: "Lato", sans-serif;
